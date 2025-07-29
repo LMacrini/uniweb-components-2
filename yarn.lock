@@ -1194,123 +1194,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@citation-js/cli@npm:0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/cli@npm:0.7.18"
-  dependencies:
-    "@citation-js/core": "npm:^0.7.18"
-    "@citation-js/plugin-bibjson": "npm:^0.7.18"
-    "@citation-js/plugin-bibtex": "npm:^0.7.18"
-    "@citation-js/plugin-csl": "npm:^0.7.18"
-    "@citation-js/plugin-doi": "npm:^0.7.18"
-    "@citation-js/plugin-ris": "npm:^0.7.18"
-    "@citation-js/plugin-wikidata": "npm:^0.7.18"
-    commander: "npm:^11.0.0"
-  bin:
-    citation-js: lib/index.js
-  checksum: 10/e3610dba0e6465814b44b7b73f04777f75b87f3a2ec3c5a03f30d902613dd5998eaa214b73a29405130c88a0104a56f1b285d755ed68f6363d1ecd309f5a6bfb
-  languageName: node
-  linkType: hard
-
-"@citation-js/core@npm:0.7.18, @citation-js/core@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/core@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    "@citation-js/name": "npm:^0.4.2"
-    fetch-ponyfill: "npm:^7.1.0"
-    sync-fetch: "npm:^0.4.1"
-  checksum: 10/e87fd822d510c651b67eb00574476068f216e49aa7a0d9a234b2dc389be0b51504ef5f4710fa79f70835355634d678f2bf41940c3647423d7ec2570b76517229
-  languageName: node
-  linkType: hard
-
-"@citation-js/date@npm:0.5.1, @citation-js/date@npm:^0.5.0":
-  version: 0.5.1
-  resolution: "@citation-js/date@npm:0.5.1"
-  checksum: 10/d979887552af6a2bccfe11c1f00e8ef1ee375ebefb9d54b0ea7326f51bf98119a05ae0b49a9e73191b07c0b64e04032fa49a0b0c5de16ffd4617eb705464fba3
-  languageName: node
-  linkType: hard
-
-"@citation-js/name@npm:0.4.2, @citation-js/name@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@citation-js/name@npm:0.4.2"
-  checksum: 10/a7b1f54af83438ead3c8727cf07f32ea0b86100a4d5537ac4b4dcfa29bb738e58158b21801b3c4e0a3e920b7a26dc03335ed2447d5325a07f81fdfb368f45477
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-bibjson@npm:0.7.18, @citation-js/plugin-bibjson@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-bibjson@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    "@citation-js/name": "npm:^0.4.2"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/d3b34c8022ebe47035f1bdb4223d043bdb5e037f61436e47aebb60b439c036f717403a93836d5a25f802a25a619932ae8486f64b5ab4b0884860ef4f5356c71a
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-bibtex@npm:0.7.18, @citation-js/plugin-bibtex@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-bibtex@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    "@citation-js/name": "npm:^0.4.2"
-    moo: "npm:^0.5.1"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/bda6f19cbac7b54187602084f82dd54d0bcf196b37bcf183f3c1f32de2a9b0eeb59a5015cb06b03a81b30e577aadbeea312bab99a351c3c3c9980b8ed45d6be4
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-csl@npm:0.7.18, @citation-js/plugin-csl@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-csl@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    citeproc: "npm:^2.4.6"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/9be7365ce5abd1dfd01a546e58c14ca066e7d2d28520ed2f747a2c9d3f8e231e73426e9de42b34ed72fc6c3279607d4e3b5affe9a0e7e743f8e650270704d0e6
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-doi@npm:0.7.18, @citation-js/plugin-doi@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-doi@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/915a13724eab20bc2364ffb035b9d00fab9b96e7bfe38530a2caae1c504429a1a631bff512a5524630397a08c563d5a7648fdc8a72aae063ce909c1fc83cc067
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-ris@npm:0.7.18, @citation-js/plugin-ris@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-ris@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    "@citation-js/name": "npm:^0.4.2"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/c9256e0059dec6312a5a4ad6cfe8980a2fe4eefe2d1798b590c8b9175d416a827ffdbccedd2f396dfcb991eb12d4dad493df409ab1cc4b4e3c4ab48d5003814b
-  languageName: node
-  linkType: hard
-
-"@citation-js/plugin-wikidata@npm:0.7.18, @citation-js/plugin-wikidata@npm:^0.7.18":
-  version: 0.7.18
-  resolution: "@citation-js/plugin-wikidata@npm:0.7.18"
-  dependencies:
-    "@citation-js/date": "npm:^0.5.0"
-    "@citation-js/name": "npm:^0.4.2"
-    "@larsgw/wikibase-sdk": "npm:^10.2.1"
-  peerDependencies:
-    "@citation-js/core": ^0.7.0
-  checksum: 10/871b6e38a507e0dd3f799cde8a95c94e267bd899235ca7671feae5f343fbb87ae8ef687c0fbb0abf620eb8393d288b3547985117acdeb13a99d83b4225be97bd
-  languageName: node
-  linkType: hard
-
 "@csstools/postcss-cascade-layers@npm:^1.1.1":
   version: 1.1.1
   resolution: "@csstools/postcss-cascade-layers@npm:1.1.1"
@@ -1770,13 +1653,6 @@ __metadata:
     "@jridgewell/resolve-uri": "npm:^3.1.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
   checksum: 10/dced32160a44b49d531b80a4a2159dceab6b3ddf0c8e95a0deae4b0e894b172defa63d5ac52a19c2068e1fe7d31ea4ba931fbeec103233ecb4208953967120fc
-  languageName: node
-  linkType: hard
-
-"@larsgw/wikibase-sdk@npm:^10.2.1":
-  version: 10.2.1
-  resolution: "@larsgw/wikibase-sdk@npm:10.2.1"
-  checksum: 10/b6c84d092140eef092e05882da905f595cdb339412cda1d0de7a0a047d40fc714b6ea1fccdd00a7cbe9b921abfb25cf934147e4af1ad12bb1883917f51980790
   languageName: node
   linkType: hard
 
@@ -3329,13 +3205,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base64-js@npm:^1.3.1":
-  version: 1.5.1
-  resolution: "base64-js@npm:1.5.1"
-  checksum: 10/669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
-  languageName: node
-  linkType: hard
-
 "basic-auth@npm:^2.0.1":
   version: 2.0.1
   resolution: "basic-auth@npm:2.0.1"
@@ -3402,16 +3271,6 @@ __metadata:
   version: 1.1.2
   resolution: "buffer-from@npm:1.1.2"
   checksum: 10/0448524a562b37d4d7ed9efd91685a5b77a50672c556ea254ac9a6d30e3403a517d8981f10e565db24e8339413b43c97ca2951f10e399c6125a0d8911f5679bb
-  languageName: node
-  linkType: hard
-
-"buffer@npm:^5.7.1":
-  version: 5.7.1
-  resolution: "buffer@npm:5.7.1"
-  dependencies:
-    base64-js: "npm:^1.3.1"
-    ieee754: "npm:^1.1.13"
-  checksum: 10/997434d3c6e3b39e0be479a80288875f71cd1c07d75a3855e6f08ef848a3c966023f79534e22e415ff3a5112708ce06127277ab20e527146d55c84566405c7c6
   languageName: node
   linkType: hard
 
@@ -3624,35 +3483,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"citation-js@npm:^0.7.14":
-  version: 0.7.18
-  resolution: "citation-js@npm:0.7.18"
-  dependencies:
-    "@citation-js/cli": "npm:0.7.18"
-    "@citation-js/core": "npm:0.7.18"
-    "@citation-js/date": "npm:0.5.1"
-    "@citation-js/name": "npm:0.4.2"
-    "@citation-js/plugin-bibjson": "npm:0.7.18"
-    "@citation-js/plugin-bibtex": "npm:0.7.18"
-    "@citation-js/plugin-csl": "npm:0.7.18"
-    "@citation-js/plugin-doi": "npm:0.7.18"
-    "@citation-js/plugin-ris": "npm:0.7.18"
-    "@citation-js/plugin-wikidata": "npm:0.7.18"
-    citeproc: "npm:^2.4.59"
-    resolve: "github:tapjs/resolve#isaacs/support-exports"
-  bin:
-    citation-js: bin/cmd.js
-  checksum: 10/7cf9b0e4995e62226af2899f7f28bc0ae9b27731d216f209453de75de15e2c36e3d40ac1660785465bc76de399c808d633e87ca4b72ed9fe539cf1d84eae3f23
-  languageName: node
-  linkType: hard
-
-"citeproc@npm:^2.4.59, citeproc@npm:^2.4.6":
-  version: 2.4.63
-  resolution: "citeproc@npm:2.4.63"
-  checksum: 10/719d7a1d2aa8c12583270ed9663180d53dfd4f51259644732547f5bb38f9c451183c080d126967e78771fc5eb86b03eece497012baba87102da20d128be87f2d
-  languageName: node
-  linkType: hard
-
 "client-only@npm:^0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
@@ -3775,13 +3605,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^11.0.0":
-  version: 11.1.0
-  resolution: "commander@npm:11.1.0"
-  checksum: 10/66bd2d8a0547f6cb1d34022efb25f348e433b0e04ad76a65279b1b09da108f59a4d3001ca539c60a7a46ea38bcf399fc17d91adad76a8cf43845d8dcbaf5cda1
-  languageName: node
-  linkType: hard
-
 "commander@npm:^2.20.0":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
@@ -3827,7 +3650,6 @@ __metadata:
     "@uniwebcms/core-components": "npm:^1.6.23"
     "@uniwebcms/module-sdk": "npm:^2.0.1"
     "@uniwebcms/uniweb-tailwind-plugin": "npm:^1.0.1"
-    citation-js: "npm:^0.7.14"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-icons: "npm:^5.3.0"
@@ -4692,15 +4514,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fetch-ponyfill@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "fetch-ponyfill@npm:7.1.0"
-  dependencies:
-    node-fetch: "npm:~2.6.1"
-  checksum: 10/787df06a74a708163ef9e1c7967189c885cf9f7f30d63cac9e46e4cfc1f963bdd076ab025f85b58c5e85620d27992ae6714a1888e262b1748e9fdb65d82ac678
-  languageName: node
-  linkType: hard
-
 "file-loader@npm:6.2.0, file-loader@npm:^6.2.0":
   version: 6.2.0
   resolution: "file-loader@npm:6.2.0"
@@ -5215,13 +5028,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ieee754@npm:^1.1.13":
-  version: 1.2.1
-  resolution: "ieee754@npm:1.2.1"
-  checksum: 10/d9f2557a59036f16c282aaeb107832dc957a93d73397d89bbad4eb1130560560eb695060145e8e6b3b498b15ab95510226649a0b8f52ae06583575419fe10fc4
-  languageName: node
-  linkType: hard
-
 "image-size@npm:^1.1.1":
   version: 1.2.0
   resolution: "image-size@npm:1.2.0"
@@ -5410,7 +5216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.13.0, is-core-module@npm:^2.16.0":
+"is-core-module@npm:^2.16.0":
   version: 2.16.1
   resolution: "is-core-module@npm:2.16.1"
   dependencies:
@@ -6621,13 +6427,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moo@npm:^0.5.1":
-  version: 0.5.2
-  resolution: "moo@npm:0.5.2"
-  checksum: 10/fee356cb13b52e259c925fe297d71b3f47b98b06444b696dd4870d20cad4711eb58d24131afeba9bf7a51d77c77a3cbe8479066497d12a88abb51865c1be7de7
-  languageName: node
-  linkType: hard
-
 "ms@npm:^2.1.1, ms@npm:^2.1.3":
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
@@ -6675,34 +6474,6 @@ __metadata:
   dependencies:
     node-gyp: "npm:latest"
   checksum: 10/ee1e1ed6284a2f8cd1d59ac6175ecbabf8978dcf570345e9a8095a9d0a2b9ced591074ae77f9009287b00c402352b38aa9322a34f2199cdc9f567b842a636b94
-  languageName: node
-  linkType: hard
-
-"node-fetch@npm:^2.6.1":
-  version: 2.7.0
-  resolution: "node-fetch@npm:2.7.0"
-  dependencies:
-    whatwg-url: "npm:^5.0.0"
-  peerDependencies:
-    encoding: ^0.1.0
-  peerDependenciesMeta:
-    encoding:
-      optional: true
-  checksum: 10/b24f8a3dc937f388192e59bcf9d0857d7b6940a2496f328381641cb616efccc9866e89ec43f2ec956bbd6c3d3ee05524ce77fe7b29ccd34692b3a16f237d6676
-  languageName: node
-  linkType: hard
-
-"node-fetch@npm:~2.6.1":
-  version: 2.6.13
-  resolution: "node-fetch@npm:2.6.13"
-  dependencies:
-    whatwg-url: "npm:^5.0.0"
-  peerDependencies:
-    encoding: ^0.1.0
-  peerDependenciesMeta:
-    encoding:
-      optional: true
-  checksum: 10/72f94498d547e322207575b2778e7b3d969b0d73f35a19f258c7fb982bf0ae96e5a3a518477300ba1dd2bd22e6b05be074648ed88448c5cf1a9b7d23c6529d1a
   languageName: node
   linkType: hard
 
@@ -7956,19 +7727,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@github:tapjs/resolve#isaacs/support-exports":
-  version: 1.22.6
-  resolution: "resolve@https://github.com/tapjs/resolve.git#commit=ef9e9dae6ccced153292eead6dfbc040ae680a95"
-  dependencies:
-    is-core-module: "npm:^2.13.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: ./bin/resolve
-  checksum: 10/93e867d6e5a73925f6ad9e1edada133ee773f16adb3464ee648d8313ce0166e20f1c43cac245868841b8bac07890ce1ac9660c7aedeba7653f04002a1c46b13d
-  languageName: node
-  linkType: hard
-
 "resolve@npm:^1.1.7, resolve@npm:^1.14.2, resolve@npm:^1.22.8, resolve@npm:^1.9.0":
   version: 1.22.10
   resolution: "resolve@npm:1.22.10"
@@ -7979,19 +7737,6 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 10/0a398b44da5c05e6e421d70108822c327675febb880eebe905587628de401854c61d5df02866ff34fc4cb1173a51c9f0e84a94702738df3611a62e2acdc68181
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@github%3Atapjs/resolve%23isaacs/support-exports#optional!builtin<compat/resolve>":
-  version: 1.22.6
-  resolution: "resolve@patch:resolve@https%3A//github.com/tapjs/resolve.git%23commit=ef9e9dae6ccced153292eead6dfbc040ae680a95#optional!builtin<compat/resolve>::version=1.22.6&hash=c3c19d"
-  dependencies:
-    is-core-module: "npm:^2.13.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: ./bin/resolve
-  checksum: 10/07b21522749e1dbbe7027453e6b49790084cbc805f961f4f98d33d44f460355ad586a26003a39c8295ab5b574642a73d9774cf9222223db9ed2ac2ddb8383642
   languageName: node
   linkType: hard
 
@@ -8723,16 +8468,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sync-fetch@npm:^0.4.1":
-  version: 0.4.5
-  resolution: "sync-fetch@npm:0.4.5"
-  dependencies:
-    buffer: "npm:^5.7.1"
-    node-fetch: "npm:^2.6.1"
-  checksum: 10/909e580c7283590063cf12f6a7a4c66324faa011dea6d9104301486a70f159a8547c0cc8e9c1b3eb4f5621fe31d3a241017e2190398c2164f3ad4118e9379498
-  languageName: node
-  linkType: hard
-
 "tailwind-merge@npm:^1.13.2":
   version: 1.14.0
   resolution: "tailwind-merge@npm:1.14.0"
@@ -8854,13 +8589,6 @@ __metadata:
   dependencies:
     is-number: "npm:^7.0.0"
   checksum: 10/10dda13571e1f5ad37546827e9b6d4252d2e0bc176c24a101252153ef435d83696e2557fe128c4678e4e78f5f01e83711c703eef9814eb12dab028580d45980a
-  languageName: node
-  linkType: hard
-
-"tr46@npm:~0.0.3":
-  version: 0.0.3
-  resolution: "tr46@npm:0.0.3"
-  checksum: 10/8f1f5aa6cb232f9e1bdc86f485f916b7aa38caee8a778b378ffec0b70d9307873f253f5cbadbe2955ece2ac5c83d0dc14a77513166ccd0a0c7fe197e21396695
   languageName: node
   linkType: hard
 
@@ -9214,13 +8942,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webidl-conversions@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "webidl-conversions@npm:3.0.1"
-  checksum: 10/b65b9f8d6854572a84a5c69615152b63371395f0c5dcd6729c45789052296df54314db2bc3e977df41705eacb8bc79c247cee139a63fa695192f95816ed528ad
-  languageName: node
-  linkType: hard
-
 "webpack-cli@npm:^4.10.0":
   version: 4.10.0
   resolution: "webpack-cli@npm:4.10.0"
@@ -9314,16 +9035,6 @@ __metadata:
   dependencies:
     iconv-lite: "npm:0.6.3"
   checksum: 10/162d712d88fd134a4fe587e53302da812eb4215a1baa4c394dfd86eff31d0a079ff932c05233857997de07481093358d6e7587997358f49b8a580a777be22089
-  languageName: node
-  linkType: hard
-
-"whatwg-url@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "whatwg-url@npm:5.0.0"
-  dependencies:
-    tr46: "npm:~0.0.3"
-    webidl-conversions: "npm:^3.0.0"
-  checksum: 10/f95adbc1e80820828b45cc671d97da7cd5e4ef9deb426c31bcd5ab00dc7103042291613b3ef3caec0a2335ed09e0d5ed026c940755dbb6d404e2b27f940fdf07
   languageName: node
   linkType: hard
 
