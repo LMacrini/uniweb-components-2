@@ -20,6 +20,7 @@
         packages = with pkgs; [
           cloudflared
           nodejs
+          superhtml
           typescript-language-server
           yarn
         ];
