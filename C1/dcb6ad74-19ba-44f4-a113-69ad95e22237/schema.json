@@ -1,0 +1,915 @@
+{
+  "_self": {
+    "name": "Company Series 1",
+    "description": "A collection of components for building company websites."
+  },
+  "ArchitectureDiagram": {
+    "title": {
+      "en": "Architecture Diagram",
+      "fr": "Diagramme d'Architecture"
+    },
+    "label": {
+      "en": "Architecture Diagram",
+      "fr": "Diagramme d'Architecture"
+    },
+    "description": {
+      "en": "A component to display an architecture diagram with tagline, title, and sub-features.",
+      "fr": "Un composant pour afficher un diagramme d'architecture avec un slogan, un titre et des sous-fonctionnalités."
+    },
+    "category": "feature",
+    "export": true,
+    "name": "ArchitectureDiagram"
+  },
+  "BlockComparsion": {
+    "title": {
+      "en": "Block Comparison",
+      "fr": "Comparaison de Bloc"
+    },
+    "label": {
+      "en": "Block Comparison",
+      "fr": "Comparaison de Bloc"
+    },
+    "description": {
+      "en": "A component to display a comparison of items or features in a block format, allowing users to easily compare different options.",
+      "fr": "Un composant pour afficher une comparaison d'éléments ou de fonctionnalités sous forme de bloc, permettant aux utilisateurs de comparer facilement différentes options."
+    },
+    "category": "comparison",
+    "export": true,
+    "name": "BlockComparsion"
+  },
+  "CallToAction": {
+    "title": {
+      "en": "Call to Action",
+      "fr": "Appel à l'Action"
+    },
+    "label": {
+      "en": "Call to Action",
+      "fr": "Appel à l'Action"
+    },
+    "description": {
+      "en": "A component designed to encourage users to take a specific action, such as signing up, subscribing, or learning more about a product or service. It typically includes a prominent button and supporting text.",
+      "fr": "Un composant conçu pour encourager les utilisateurs à entreprendre une action spécifique, comme s'inscrire, s'abonner ou en savoir plus sur un produit ou service. Il comprend généralement un bouton proéminent et un texte de soutien."
+    },
+    "category": "action",
+    "export": true,
+    "name": "CallToAction"
+  },
+  "Feature": {
+    "title": {
+      "en": "Feature",
+      "fr": "Fonctionnalité"
+    },
+    "label": {
+      "en": "Feature",
+      "fr": "Fonctionnalité"
+    },
+    "description": {
+      "en": "Showcases a feature section with flexible layout options including a title, tagline (pretitle), and description. Ideal for presenting services or product features. Supports subsections to highlight individual features, each with customizable layout and appearance.",
+      "fr": "Présente une section de fonctionnalités avec des options de mise en page flexibles, y compris un titre, un slogan (pré-titre) et une description. Idéal pour présenter des services ou des fonctionnalités produit. Prend en charge les sous-sections pour mettre en avant des fonctionnalités individuelles, chacune avec une mise en page et une apparence personnalisables."
+    },
+    "category": "feature",
+    "export": true,
+    "properties": {
+      "max_width": {
+        "label": {
+          "en": "Sub Features Max Width",
+          "fr": "Largeur maximale des sous-fonctionnalités"
+        },
+        "type": "string",
+        "default": "md",
+        "enum": [
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "sm"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "md"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "lg"
+          }
+        ],
+        "description": {
+          "en": "Sets the max width for the space holding the sub features.",
+          "fr": "Définit la largeur maximale de l'espace contenant les sous-fonctionnalités"
+        }
+      },
+      "max_items_per_row": {
+        "label": {
+          "en": "Max Items Per Row",
+          "fr": "Nombre maximum d'éléments par ligne"
+        },
+        "type": "number",
+        "default": 3,
+        "description": {
+          "en": "Sets the maximum number of items per row in the sub features section.",
+          "fr": "Définit le nombre maximum d'éléments par ligne dans la section des sous-fonctionnalités"
+        }
+      },
+      "child_card_roundness": {
+        "label": {
+          "en": "Child Card Roundness",
+          "fr": "Arrondi des cartes enfants"
+        },
+        "type": "string",
+        "default": "none",
+        "enum": [
+          {
+            "label": {
+              "en": "None",
+              "fr": "Aucun"
+            },
+            "value": "none"
+          },
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "large"
+          }
+        ],
+        "description": {
+          "en": "Sets the roundness of the child feature cards.",
+          "fr": "Définit l'arrondi des cartes de fonctionnalités enfants"
+        }
+      },
+      "child_card_space_in_between": {
+        "label": {
+          "en": "Child Card Space In Between",
+          "fr": "Espace entre les cartes enfants"
+        },
+        "type": "string",
+        "default": "medium",
+        "enum": [
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "large"
+          }
+        ],
+        "description": {
+          "en": "Sets the space between child feature cards.",
+          "fr": "Définit l'espace entre les cartes de fonctionnalités enfants"
+        }
+      },
+      "with_custom_children_wrapper": {
+        "label": {
+          "en": "With Custom Children Wrapper",
+          "fr": "Avec Wrapper Enfants Personnalisé"
+        },
+        "type": "boolean",
+        "default": false,
+        "description": {
+          "en": "Renders children directly without applying any layout or wrapper, allowing external control of their layout and structure.",
+          "fr": "Rend les enfants directement sans appliquer de mise en page ou de conteneur, permettant un contrôle externe de leur disposition et de leur structure."
+        }
+      }
+    },
+    "name": "Feature"
+  },
+  "FeatureGrid": {
+    "title": {
+      "en": "Feature Grid",
+      "fr": "Grille de Fonctionnalités"
+    },
+    "label": {
+      "en": "Feature Grid",
+      "fr": "Grille de Fonctionnalités"
+    },
+    "description": {
+      "en": "A grid component to display a collection of features or items with various layouts and styles. Expect Feature Grid Item components as children.",
+      "fr": "Un composant de grille pour afficher une collection de fonctionnalités ou d'éléments avec diverses mises en page et styles. Attendez-vous à des composants d'élément de grille de fonctionnalités comme enfants."
+    },
+    "category": "feature",
+    "export": true,
+    "name": "FeatureGrid"
+  },
+  "FeatureGridItem": {
+    "title": {
+      "en": "Feature Grid Item",
+      "fr": "Élément de Grille de Fonctionnalités"
+    },
+    "label": {
+      "en": "Feature Grid Item",
+      "fr": "Élément de Grille de Fonctionnalités"
+    },
+    "description": {
+      "en": "An item in the Feature Grid component, showcasing a feature with different layouts and styles.",
+      "fr": "Un élément dans le composant Grille de Fonctionnalités, présentant une fonctionnalité avec différentes mises en page et styles."
+    },
+    "category": "feature",
+    "export": true,
+    "properties": {
+      "mode": {
+        "label": {
+          "en": "Display Mode",
+          "fr": "Mode d'Affichage"
+        },
+        "type": "string",
+        "default": "card",
+        "enum": [
+          {
+            "label": {
+              "en": "Large Feature",
+              "fr": "Fonctionnalité Grande"
+            },
+            "value": "large_feature"
+          },
+          {
+            "label": {
+              "en": "Stat Box",
+              "fr": "Boîte Statistique"
+            },
+            "value": "stat_box"
+          },
+          {
+            "label": {
+              "en": "Inline Quote Box",
+              "fr": "Boîte de Citation en Ligne"
+            },
+            "value": "inline_quote_box"
+          },
+          {
+            "label": {
+              "en": "Medium Feature with List",
+              "fr": "Fonctionnalité Moyenne avec Liste"
+            },
+            "value": "medium_feature_with_list"
+          },
+          {
+            "label": {
+              "en": "Mini Code Block",
+              "fr": "Bloc de Code Mini"
+            },
+            "value": "mini_code_block"
+          },
+          {
+            "label": {
+              "en": "Simple Visual",
+              "fr": "Visuel Simple"
+            },
+            "value": "simple_visual"
+          },
+          {
+            "label": {
+              "en": "Tall Feature",
+              "fr": "Fonctionnalité Haute"
+            },
+            "value": "tall_feature"
+          },
+          {
+            "label": {
+              "en": "Git Workflow",
+              "fr": "Flux de Travail Git"
+            },
+            "value": "git_workflow"
+          },
+          {
+            "label": {
+              "en": "Wide Feature",
+              "fr": "Fonctionnalité Large"
+            },
+            "value": "wide_feature"
+          }
+        ],
+        "description": {
+          "en": "Select the display mode for the feature grid item.",
+          "fr": "Sélectionnez le mode d'affichage pour l'élément de la grille de fonctionnalités."
+        }
+      }
+    },
+    "name": "FeatureGridItem"
+  },
+  "FeatureItem": {
+    "title": {
+      "en": "Feature Item",
+      "fr": "Élément de fonctionnalité"
+    },
+    "label": {
+      "en": "Feature Item",
+      "fr": "Élément de fonctionnalité"
+    },
+    "description": {
+      "en": "A specific component used to display a feature in different ways. Each mode expect different type of content to be displayed. Ideally used as the child of a feature section.",
+      "fr": "Un composant spécifique utilisé pour afficher une fonctionnalité de différentes manières. Chaque mode attend un type de contenu différent à afficher. Idéalement utilisé comme enfant d'une section de fonctionnalités."
+    },
+    "category": "sub-content",
+    "export": true,
+    "elements": {
+      "icon": {},
+      "title": {
+        "type": "H1",
+        "alignment": "",
+        "description": {
+          "en": "The main headline.",
+          "fr": "Le titre principal."
+        }
+      },
+      "subtitle": {
+        "type": "H2",
+        "description": {
+          "en": "A phrase that follows the main headline.",
+          "fr": "Une phrase qui suit le titre principal."
+        }
+      },
+      "text": {
+        "type": "paragraph",
+        "description": {
+          "en": "The body text.",
+          "fr": "Le texte du corps."
+        }
+      },
+      "link": {
+        "type": "link",
+        "description": {
+          "en": "A link",
+          "fr": "Un lien"
+        }
+      },
+      "list": {
+        "description": {
+          "en": "A list of details or features that highlight the key aspects of the content. Only available in Bullet List mode.",
+          "fr": "Une liste de détails ou de caractéristiques qui mettent en avant les aspects clés du contenu. Disponible uniquement en mode liste à puces."
+        }
+      }
+    },
+    "properties": {
+      "with_border": {
+        "label": {
+          "en": "With Border",
+          "fr": "Avec bordure"
+        },
+        "type": "boolean",
+        "default": false,
+        "description": {
+          "en": "Whether the feature item should have a border or not.",
+          "fr": "Si l'élément de fonctionnalité doit avoir une bordure ou non."
+        }
+      },
+      "mode": {
+        "label": {
+          "en": "Mode",
+          "fr": "Mode"
+        },
+        "type": "string",
+        "default": "content_centralized",
+        "enum": [
+          {
+            "label": {
+              "en": "Content Aligned Left (title, subtitle, text and link)",
+              "fr": "Contenu Aligné à Gauche (titre, sous-titre, texte et lien)"
+            },
+            "value": "content_aligned_left"
+          },
+          {
+            "label": {
+              "en": "Content Centralized (icon/image, title, text and link)",
+              "fr": "Contenu Centré (icône/image, titre, texte et lien)"
+            },
+            "value": "content_centralized"
+          },
+          {
+            "label": {
+              "en": "Business Card (icon, title, text and link)",
+              "fr": "Carte de visite (icône, titre, texte et lien)"
+            },
+            "value": "business_card"
+          },
+          {
+            "label": {
+              "en": "3D Card (icon, and text)",
+              "fr": "Carte 3D (icône et texte)"
+            },
+            "value": "three_d_card"
+          },
+          {
+            "label": {
+              "en": "List with Icon (title, list and text)",
+              "fr": "Liste avec Icône (titre, liste et texte)"
+            },
+            "value": "list"
+          },
+          {
+            "label": {
+              "en": "List with Theming (title, list and paragraphs)",
+              "fr": "Liste avec thématique (titre, liste et paragraphes)"
+            },
+            "value": "list_with_theming"
+          },
+          {
+            "label": {
+              "en": "Mapping (code, list in subitems)",
+              "fr": "Cartographie (code, liste dans les sous-éléments)"
+            },
+            "value": "mapping"
+          },
+          {
+            "label": {
+              "en": "Content with Icon (icon and text)",
+              "fr": "Contenu avec icône (icône et texte)"
+            },
+            "value": "content_with_icon"
+          },
+          {
+            "label": {
+              "en": "Code Block (code)",
+              "fr": "Bloc de code (code)"
+            },
+            "value": "code_block"
+          }
+        ],
+        "description": {
+          "en": "The display mode of the feature item.",
+          "fr": "Le mode d'affichage de l'élément de fonctionnalité."
+        }
+      }
+    },
+    "name": "FeatureItem"
+  },
+  "FeatureShowcase": {
+    "title": {
+      "en": "Feature Showcase",
+      "fr": "Vitrine de Fonctionnalités"
+    },
+    "label": {
+      "en": "Feature Showcase",
+      "fr": "Vitrine de Fonctionnalités"
+    },
+    "description": {
+      "en": "A dedicated component for displaying features or services in a side-by-side layout. It supports multiple features and allows displaying one image per feature, with slicers on the right to display the images one by one.",
+      "fr": "Un composant dédié à l'affichage des fonctionnalités ou services dans une mise en page côte à côte. Il prend en charge plusieurs fonctionnalités et permet d'afficher une image par fonctionnalité, avec des trancheurs à droite pour afficher les images une par une."
+    },
+    "category": "feature",
+    "export": true,
+    "name": "FeatureShowcase"
+  },
+  "FeatureWrapper": {
+    "title": {
+      "en": "Feature Wrapper",
+      "fr": "Wrapper de Fonctionnalité"
+    },
+    "label": {
+      "en": "Feature Wrapper",
+      "fr": "Wrapper de Fonctionnalité"
+    },
+    "description": {
+      "en": "A wrapper component for organizing and displaying features with flexible layout options. It allows for customization of the maximum width for sub-features, the number of items per row, and the roundness of child feature cards.",
+      "fr": "Un composant wrapper pour organiser et afficher des fonctionnalités avec des options de mise en page flexibles. Il permet de personnaliser la largeur maximale des sous-fonctionnalités, le nombre d'éléments par ligne et l'arrondi des cartes de fonctionnalités enfants."
+    },
+    "category": "feature",
+    "export": true,
+    "properties": {
+      "max_width": {
+        "label": {
+          "en": "Sub Features Max Width",
+          "fr": "Largeur maximale des sous-fonctionnalités"
+        },
+        "type": "string",
+        "default": "medium",
+        "enum": [
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "large"
+          },
+          {
+            "label": {
+              "en": "Extra Small",
+              "fr": "Très Petit"
+            },
+            "value": "xs"
+          }
+        ],
+        "description": {
+          "en": "Sets the max width for the space holding the sub features.",
+          "fr": "Définit la largeur maximale de l'espace contenant les sous-fonctionnalités"
+        }
+      },
+      "max_items_per_row": {
+        "label": {
+          "en": "Max Items Per Row",
+          "fr": "Nombre maximum d'éléments par ligne"
+        },
+        "type": "number",
+        "default": 3,
+        "description": {
+          "en": "Sets the maximum number of items per row in the sub features section.",
+          "fr": "Définit le nombre maximum d'éléments par ligne dans la section des sous-fonctionnalités"
+        }
+      },
+      "child_card_roundness": {
+        "label": {
+          "en": "Child Card Roundness",
+          "fr": "Arrondi des cartes enfants"
+        },
+        "type": "string",
+        "default": "none",
+        "enum": [
+          {
+            "label": {
+              "en": "None",
+              "fr": "Aucun"
+            },
+            "value": "none"
+          },
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "large"
+          }
+        ],
+        "description": {
+          "en": "Sets the roundness of the child feature cards.",
+          "fr": "Définit l'arrondi des cartes de fonctionnalités enfants"
+        }
+      },
+      "margin_top": {
+        "label": {
+          "en": "Margin Top",
+          "fr": "Marge Supérieure"
+        },
+        "type": "string",
+        "default": "none",
+        "enum": [
+          {
+            "label": {
+              "en": "None",
+              "fr": "Aucune"
+            },
+            "value": "none"
+          },
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petite"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyenne"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grande"
+            },
+            "value": "large"
+          }
+        ],
+        "description": {
+          "en": "Sets the top margin for the feature wrapper.",
+          "fr": "Définit la marge supérieure pour le wrapper de fonctionnalité."
+        }
+      },
+      "space_between_items": {
+        "label": {
+          "en": "Space Between Items",
+          "fr": "Espace entre les éléments"
+        },
+        "type": "string",
+        "default": "medium",
+        "enum": [
+          {
+            "label": {
+              "en": "Small",
+              "fr": "Petit"
+            },
+            "value": "small"
+          },
+          {
+            "label": {
+              "en": "Medium",
+              "fr": "Moyen"
+            },
+            "value": "medium"
+          },
+          {
+            "label": {
+              "en": "Large",
+              "fr": "Grand"
+            },
+            "value": "large"
+          }
+        ],
+        "description": {
+          "en": "Sets the space between items in the feature wrapper.",
+          "fr": "Définit l'espace entre les éléments dans le wrapper de fonctionnalité."
+        }
+      }
+    },
+    "name": "FeatureWrapper"
+  },
+  "Footer": {
+    "title": {
+      "en": "Footer",
+      "fr": "Pied de Page"
+    },
+    "label": {
+      "en": "Footer",
+      "fr": "Pied de Page"
+    },
+    "description": {
+      "en": "A footer component that includes links to external resources and additional information about the site or organization.",
+      "fr": "Un composant de pied de page qui comprend des liens vers des ressources externes et des informations supplémentaires sur le site ou l'organisation."
+    },
+    "category": "footer",
+    "export": true,
+    "name": "Footer"
+  },
+  "Header": {
+    "title": {
+      "en": "Header",
+      "fr": "En-tête"
+    },
+    "label": {
+      "en": "Header",
+      "fr": "En-tête"
+    },
+    "description": {
+      "en": "A header component that includes a logo and navigation menus and links to external resources.",
+      "fr": "Un composant d'en-tête qui comprend un logo et des menus de navigation ainsi que des liens vers des ressources externes."
+    },
+    "category": "header",
+    "export": true,
+    "name": "Header"
+  },
+  "Hero": {
+    "title": {
+      "en": "Hero Component",
+      "fr": "Composant Héros"
+    },
+    "label": {
+      "en": "Hero",
+      "fr": "Héros"
+    },
+    "description": {
+      "en": "A hero component for showcasing key content prominently on a page. Optionally includes extra content like line animations, bento box teasers, and more.",
+      "fr": "Un composant héros pour mettre en avant le contenu clé de manière proémin"
+    },
+    "category": "content",
+    "export": true,
+    "elements": {
+      "pretitle": {
+        "type": "H2",
+        "description": {
+          "en": "A phrase that precedes the main headline.",
+          "fr": "Une phrase qui précède le titre principal."
+        }
+      },
+      "title": {
+        "type": "H1",
+        "alignment": "",
+        "description": {
+          "en": "The main headline.",
+          "fr": "Le titre principal."
+        }
+      },
+      "subtitle": {
+        "type": "H2",
+        "description": {
+          "en": "A phrase that follows the main headline.",
+          "fr": "Une phrase qui suit le titre principal."
+        }
+      },
+      "text": {
+        "type": "paragraph",
+        "description": {
+          "en": "The body text.",
+          "fr": "Le texte du corps."
+        }
+      },
+      "link": {
+        "type": "link",
+        "description": {
+          "en": "A link",
+          "fr": "Un lien"
+        }
+      }
+    },
+    "items": {
+      "separator": "divider",
+      "elements": {
+        "title": {
+          "type": "H1",
+          "alignment": "",
+          "description": {
+            "en": "The main headline.",
+            "fr": "Le titre principal."
+          }
+        },
+        "subtitle": {
+          "type": "H2",
+          "description": {
+            "en": "A phrase that follows the main headline.",
+            "fr": "Une phrase qui suit le titre principal."
+          }
+        },
+        "icon": {}
+      }
+    },
+    "properties": {
+      "with_line_animation": {
+        "type": "boolean",
+        "label": {
+          "en": "With Line Animation",
+          "fr": "Avec Animation de Ligne"
+        },
+        "description": {
+          "en": "Enable or disable the line animation in the hero section.",
+          "fr": "Activer ou désactiver l'animation de ligne dans la section héros."
+        },
+        "default": false
+      }
+    },
+    "name": "Hero"
+  },
+  "KeyComparsion": {
+    "title": {
+      "en": "Key Comparison",
+      "fr": "Comparaison de Clé"
+    },
+    "label": {
+      "en": "Key Comparison",
+      "fr": "Comparaison de Clé"
+    },
+    "description": {
+      "en": "A component to display a comparison of key features or items, allowing users to easily compare different options.",
+      "fr": "Un composant pour afficher une comparaison de fonctionnalités clés ou d'éléments, permettant aux utilisateurs de comparer facilement différentes options."
+    },
+    "category": "comparison",
+    "export": true,
+    "name": "KeyComparsion"
+  },
+  "ListComparsion": {
+    "title": {
+      "en": "List Comparison",
+      "fr": "Comparaison de Liste"
+    },
+    "label": {
+      "en": "List Comparison",
+      "fr": "Comparaison de Liste"
+    },
+    "description": {
+      "en": "A component to display a comparison of items or features in a list format, allowing users to easily compare different options.",
+      "fr": "Un composant pour afficher une comparaison d'éléments ou de fonctionnalités sous forme de liste, permettant aux utilisateurs de comparer facilement différentes options."
+    },
+    "category": "comparison",
+    "export": true,
+    "properties": {
+      "with_padding_top": {
+        "label": {
+          "en": "With Padding Top",
+          "fr": "Avec marge supérieure"
+        },
+        "type": "boolean",
+        "default": true,
+        "description": {
+          "en": "Whether the list comparison should have padding at the top.",
+          "fr": "Si la comparaison de liste doit avoir une marge en haut."
+        }
+      }
+    },
+    "name": "ListComparsion"
+  },
+  "Steps": {
+    "title": {
+      "en": "Steps Component",
+      "fr": "Composant Étapes"
+    },
+    "label": {
+      "en": "Steps",
+      "fr": "Étapes"
+    },
+    "description": {
+      "en": "A component to display a series of steps or stages in a process.",
+      "fr": "Un composant pour afficher une série d'étapes ou de phases dans un processus."
+    },
+    "category": "content",
+    "export": true,
+    "elements": {
+      "pretitle": {
+        "type": "H2",
+        "description": {
+          "en": "A phrase that precedes the main headline.",
+          "fr": "Une phrase qui précède le titre principal."
+        }
+      },
+      "title": {
+        "type": "H1",
+        "alignment": "",
+        "description": {
+          "en": "The main headline.",
+          "fr": "Le titre principal."
+        }
+      }
+    },
+    "items": {
+      "separator": "divider",
+      "elements": {
+        "title": {
+          "type": "H1",
+          "alignment": "",
+          "description": {
+            "en": "The main headline.",
+            "fr": "Le titre principal."
+          }
+        },
+        "subtitle": {
+          "type": "H2",
+          "description": {
+            "en": "A phrase that follows the main headline.",
+            "fr": "Une phrase qui suit le titre principal."
+          }
+        },
+        "icon": {},
+        "text": {
+          "type": "paragraph",
+          "description": {
+            "en": "The body text.",
+            "fr": "Le texte du corps."
+          }
+        },
+        "code": {}
+      }
+    },
+    "name": "Steps"
+  }
+}
