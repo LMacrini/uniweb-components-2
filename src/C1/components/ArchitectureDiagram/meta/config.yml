@@ -1,0 +1,12 @@
+title: 
+  en: Architecture Diagram
+  fr: Diagramme d'Architecture
+label:
+  en: Architecture Diagram
+  fr: Diagramme d'Architecture
+description:
+  en: A component to display an architecture diagram with tagline, title, and sub-features.
+  fr: Un composant pour afficher un diagramme d'architecture avec un slogan, un titre et des sous-fonctionnalités.
+
+category: feature
+export: true

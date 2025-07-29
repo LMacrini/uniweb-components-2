@@ -1,0 +1,12 @@
+title:
+  en: Feature Grid
+  fr: Grille de Fonctionnalités
+label:
+  en: Feature Grid
+  fr: Grille de Fonctionnalités
+description:
+  en: A grid component to display a collection of features or items with various layouts and styles. Expect Feature Grid Item components as children.
+  fr: Un composant de grille pour afficher une collection de fonctionnalités ou d'éléments avec diverses mises en page et styles. Attendez-vous à des composants d'élément de grille de fonctionnalités comme enfants.
+
+category: feature
+export: true

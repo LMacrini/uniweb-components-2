@@ -1,0 +1,12 @@
+title: 
+  en: Feature Showcase
+  fr: Vitrine de Fonctionnalités
+label:
+  en: Feature Showcase
+  fr: Vitrine de Fonctionnalités
+description:
+  en: A dedicated component for displaying features or services in a side-by-side layout. It supports multiple features and allows displaying one image per feature, with slicers on the right to display the images one by one.
+  fr: Un composant dédié à l'affichage des fonctionnalités ou services dans une mise en page côte à côte. Il prend en charge plusieurs fonctionnalités et permet d'afficher une image par fonctionnalité, avec des trancheurs à droite pour afficher les images une par une.
+
+category: feature
+export: true

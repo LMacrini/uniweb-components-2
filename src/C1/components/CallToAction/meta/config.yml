@@ -1,0 +1,12 @@
+title: 
+  en: Call to Action
+  fr: Appel à l'Action
+label: 
+  en: Call to Action
+  fr: Appel à l'Action
+description:
+  en: A component designed to encourage users to take a specific action, such as signing up, subscribing, or learning more about a product or service. It typically includes a prominent button and supporting text.
+  fr: Un composant conçu pour encourager les utilisateurs à entreprendre une action spécifique, comme s'inscrire, s'abonner ou en savoir plus sur un produit ou service. Il comprend généralement un bouton proéminent et un texte de soutien.
+
+category: action
+export: true

@@ -1,0 +1,102 @@
+title: 
+  en: Feature
+  fr: Fonctionnalité
+label:
+  en: Feature
+  fr: Fonctionnalité
+description: 
+  en: Showcases a feature section with flexible layout options including a title, tagline (pretitle), and description. Ideal for presenting services or product features. Supports subsections to highlight individual features, each with customizable layout and appearance.
+  fr: Présente une section de fonctionnalités avec des options de mise en page flexibles, y compris un titre, un slogan (pré-titre) et une description. Idéal pour présenter des services ou des fonctionnalités produit. Prend en charge les sous-sections pour mettre en avant des fonctionnalités individuelles, chacune avec une mise en page et une apparence personnalisables.
+
+category: feature
+export: true
+
+properties:
+  max_width:
+    label:
+      en: Sub Features Max Width
+      fr: Largeur maximale des sous-fonctionnalités
+    type: string
+    default: md
+    enum:
+      - label:
+          en: Small
+          fr: Petit
+        value: sm
+      - label:
+          en: Medium
+          fr: Moyen
+        value: md
+      - label:
+          en: Large
+          fr: Grand
+        value: lg
+    description:
+      en: Sets the max width for the space holding the sub features.
+      fr: Définit la largeur maximale de l'espace contenant les sous-fonctionnalités
+  max_items_per_row:
+    label:
+      en: Max Items Per Row
+      fr: Nombre maximum d'éléments par ligne
+    type: number
+    default: 3
+    description:
+      en: Sets the maximum number of items per row in the sub features section.
+      fr: Définit le nombre maximum d'éléments par ligne dans la section des sous-fonctionnalités
+  child_card_roundness:
+    label:
+      en: Child Card Roundness
+      fr: Arrondi des cartes enfants
+    type: string
+    default: none
+    enum:
+      - label:
+          en: None
+          fr: Aucun
+        value: none
+      - label:
+          en: Small
+          fr: Petit
+        value: small
+      - label:
+          en: Medium
+          fr: Moyen
+        value: medium
+      - label:
+          en: Large
+          fr: Grand
+        value: large
+    description:
+      en: Sets the roundness of the child feature cards.
+      fr: Définit l'arrondi des cartes de fonctionnalités enfants
+  child_card_space_in_between:
+    label:
+      en: Child Card Space In Between
+      fr: Espace entre les cartes enfants
+    type: string
+    default: medium
+    enum:
+      - label:
+          en: Small
+          fr: Petit
+        value: small
+      - label:
+          en: Medium
+          fr: Moyen
+        value: medium
+      - label:
+          en: Large
+          fr: Grand
+        value: large
+    description:
+      en: Sets the space between child feature cards.
+      fr: Définit l'espace entre les cartes de fonctionnalités enfants
+  with_custom_children_wrapper:
+    label:
+      en: With Custom Children Wrapper
+      fr: Avec Wrapper Enfants Personnalisé
+    type: boolean
+    default: false
+    description:
+      en: Renders children directly without applying any layout or wrapper, allowing external control of their layout and structure.
+      fr: Rend les enfants directement sans appliquer de mise en page ou de conteneur, permettant un contrôle externe de leur disposition et de leur structure.

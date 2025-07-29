@@ -1,0 +1,25 @@
+title: 
+  en: Steps Component
+  fr: Composant Étapes
+label:
+  en: Steps
+  fr: Étapes
+description:
+  en: A component to display a series of steps or stages in a process.
+  fr: Un composant pour afficher une série d'étapes ou de phases dans un processus.
+
+category: content
+export: true
+
+elements:
+  pretitle:
+  title:
+
+items:
+  separator: divider
+  elements:
+    title:
+    subtitle:
+    icon:
+    text:
+    code:

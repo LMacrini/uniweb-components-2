@@ -1,0 +1,15 @@
+title:
+  en: Key Comparison
+  fr: Comparaison de Clé
+label:
+  en: Key Comparison
+  fr: Comparaison de Clé
+description:
+  en: A component to display a comparison of key features or items, allowing users to easily compare different options.
+  fr: Un composant pour afficher une comparaison de fonctionnalités clés ou d'éléments, permettant aux utilisateurs de comparer facilement différentes options.
+
+category: comparison
+export: true
+
+
+      

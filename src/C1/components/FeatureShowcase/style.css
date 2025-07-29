@@ -1,0 +1,35 @@
+@keyframes rotateInOut {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(var(--tw-rotate-angle));
+    }
+    /* 100% {
+        transform: rotate(0deg);
+    } */
+}
+
+@keyframes scaleInOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(var(--tw-scale-factor));
+    }
+    /* 100% {
+        transform: scale(1);
+    } */
+}
+
+@keyframes rotateScaleInOut {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    100% {
+        transform: rotate(var(--tw-rotate-angle)) scale(var(--tw-scale-factor));
+    }
+    /* 100% {
+        transform: rotate(0deg) scale(1);
+    } */
+}

@@ -1,0 +1,12 @@
+title:
+  en: Block Comparison
+  fr: Comparaison de Bloc
+label:
+  en: Block Comparison
+  fr: Comparaison de Bloc
+description:
+  en: A component to display a comparison of items or features in a block format, allowing users to easily compare different options.
+  fr: Un composant pour afficher une comparaison d'éléments ou de fonctionnalités sous forme de bloc, permettant aux utilisateurs de comparer facilement différentes options.
+
+category: comparison
+export: true

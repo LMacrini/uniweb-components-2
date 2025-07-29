@@ -1,0 +1,56 @@
+.visual-container {
+    height: 400px;
+    background: rgb(249 250 251);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Concept 1: Minimal Line Animation */
+.line-animation-svg {
+    width: 600px;
+    height: 300px;
+}
+
+.animated-path {
+    fill: none;
+    stroke-width: 3; /* 1.5 */
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawPath 8s ease-in-out infinite;
+    /* animation-iteration-count: 1; */
+}
+
+.path-blue {
+    stroke: rgb(var(--primary-500) / 1);
+    animation-delay: 0s;
+}
+
+.path-orange {
+    stroke: rgb(var(--secondary-500) / 1);
+    animation-delay: 0.5s;
+}
+
+@keyframes drawPath {
+    0%,
+    100% {
+        stroke-dashoffset: 1000;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    90% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+}

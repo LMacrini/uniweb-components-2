@@ -1,0 +1,81 @@
+title:
+  en: Feature Item
+  fr: Élément de fonctionnalité
+label:
+  en: Feature Item
+  fr: Élément de fonctionnalité
+description:
+  en: A specific component used to display a feature in different ways. Each mode expect different type of content to be displayed. Ideally used as the child of a feature section.
+  fr: Un composant spécifique utilisé pour afficher une fonctionnalité de différentes manières. Chaque mode attend un type de contenu différent à afficher. Idéalement utilisé comme enfant d'une section de fonctionnalités.
+
+category: sub-content
+export: true
+
+elements:
+  icon:
+  title:
+  subtitle:
+  text:
+  link:
+  list:
+    description:
+      en: A list of details or features that highlight the key aspects of the content. Only available in Bullet List mode.
+      fr: Une liste de détails ou de caractéristiques qui mettent en avant les aspects clés du contenu. Disponible uniquement en mode liste à puces.
+
+properties:
+  with_border:
+    label:
+      en: With Border
+      fr: Avec bordure
+    type: boolean
+    default: false
+    description:
+      en: Whether the feature item should have a border or not.
+      fr: Si l'élément de fonctionnalité doit avoir une bordure ou non.
+  mode:
+    label:
+      en: Mode
+      fr: Mode
+    type: string
+    default: content_centralized
+    enum:
+      - label:
+          en: Content Aligned Left (title, subtitle, text and link)
+          fr: Contenu Aligné à Gauche (titre, sous-titre, texte et lien)
+        value: content_aligned_left
+      - label:
+          en: Content Centralized (icon/image, title, text and link)
+          fr: Contenu Centré (icône/image, titre, texte et lien)
+        value: content_centralized
+      - label:
+          en: Business Card (icon, title, text and link)
+          fr: Carte de visite (icône, titre, texte et lien)
+        value: business_card
+      - label:
+          en: 3D Card (icon, and text)
+          fr: Carte 3D (icône et texte)
+        value: three_d_card
+      - label:
+          en: List with Icon (title, list and text)
+          fr: Liste avec Icône (titre, liste et texte)
+        value: list
+      - label:
+          en: List with Theming (title, list and paragraphs)
+          fr: Liste avec thématique (titre, liste et paragraphes)
+        value: list_with_theming
+      - label:
+          en: Mapping (code, list in subitems)
+          fr: Cartographie (code, liste dans les sous-éléments)
+        value: mapping
+      - label:
+          en: Content with Icon (icon and text)
+          fr: Contenu avec icône (icône et texte)
+        value: content_with_icon
+      - label:
+          en: Code Block (code)
+          fr: Bloc de code (code)
+        value: code_block
+    description:
+      en: The display mode of the feature item.
+      fr: Le mode d'affichage de l'élément de fonctionnalité.
+

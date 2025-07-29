@@ -1,0 +1,26 @@
+title:
+  en: List Comparison
+  fr: Comparaison de Liste
+label:
+  en: List Comparison
+  fr: Comparaison de Liste
+description:
+  en: A component to display a comparison of items or features in a list format, allowing users to easily compare different options.
+  fr: Un composant pour afficher une comparaison d'éléments ou de fonctionnalités sous forme de liste, permettant aux utilisateurs de comparer facilement différentes options.
+
+category: comparison
+export: true
+
+properties:
+  with_padding_top:
+    label:
+      en: With Padding Top
+      fr: Avec marge supérieure
+    type: boolean
+    default: true
+    description:
+      en: Whether the list comparison should have padding at the top.
+      fr: Si la comparaison de liste doit avoir une marge en haut.
+
+
+      

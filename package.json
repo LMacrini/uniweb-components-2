@@ -1,0 +1,20 @@
+{
+    "name": "uniweb-io-module",
+    "version": "2.0.0",
+    "packageManager": "yarn@4.5.0",
+    "private": true,
+    "workspaces": [
+        "src/*",
+        "builder"
+    ],
+    "scripts": {
+        "serve": "cd builder && yarn run serve",
+        "refresh": "cd builder && yarn run refresh",
+        "watch": "cd builder && yarn run watch:tunnel",
+        "build": "cd builder && yarn run build"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

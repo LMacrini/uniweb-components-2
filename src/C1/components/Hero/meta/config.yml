@@ -1,0 +1,37 @@
+title: 
+  en: Hero Component
+  fr: Composant Héros
+label:
+  en: Hero
+  fr: Héros
+description:
+  en: A hero component for showcasing key content prominently on a page. Optionally includes extra content like line animations, bento box teasers, and more.
+  fr: Un composant héros pour mettre en avant le contenu clé de manière proémin
+
+category: content
+export: true
+
+elements:
+  pretitle:
+  title:
+  subtitle:
+  text:
+  link:
+
+items:
+  separator: divider
+  elements:
+    title:
+    subtitle:
+    icon:
+
+properties:
+  with_line_animation:
+    type: boolean
+    label:
+      en: With Line Animation
+      fr: Avec Animation de Ligne
+    description:
+      en: Enable or disable the line animation in the hero section.
+      fr: Activer ou désactiver l'animation de ligne dans la section héros.
+    default: false

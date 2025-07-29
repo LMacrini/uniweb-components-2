@@ -1,0 +1,123 @@
+title: 
+  en: Feature Wrapper
+  fr: Wrapper de Fonctionnalité
+label:
+  en: Feature Wrapper
+  fr: Wrapper de Fonctionnalité
+description:
+  en: A wrapper component for organizing and displaying features with flexible layout options. It allows for customization of the maximum width for sub-features, the number of items per row, and the roundness of child feature cards.
+  fr: Un composant wrapper pour organiser et afficher des fonctionnalités avec des options de mise en page flexibles. Il permet de personnaliser la largeur maximale des sous-fonctionnalités, le nombre d'éléments par ligne et l'arrondi des cartes de fonctionnalités enfants.
+
+category: feature
+export: true
+
+properties:
+  max_width:
+    label:
+      en: Sub Features Max Width
+      fr: Largeur maximale des sous-fonctionnalités
+    type: string
+    default: medium
+    enum:
+      - label:
+          en: Small
+          fr: Petit
+        value: small
+      - label:
+          en: Medium
+          fr: Moyen
+        value: medium
+      - label:
+          en: Large
+          fr: Grand
+        value: large
+      - label:
+          en: Extra Small
+          fr: Très Petit
+        value: xs
+    description:
+      en: Sets the max width for the space holding the sub features.
+      fr: Définit la largeur maximale de l'espace contenant les sous-fonctionnalités
+  max_items_per_row:
+    label:
+      en: Max Items Per Row
+      fr: Nombre maximum d'éléments par ligne
+    type: number
+    default: 3
+    description:
+      en: Sets the maximum number of items per row in the sub features section.
+      fr: Définit le nombre maximum d'éléments par ligne dans la section des sous-fonctionnalités
+  child_card_roundness:
+    label:
+      en: Child Card Roundness
+      fr: Arrondi des cartes enfants
+    type: string
+    default: none
+    enum:
+      - label:
+          en: None
+          fr: Aucun
+        value: none
+      - label:
+          en: Small
+          fr: Petit
+        value: small
+      - label:
+          en: Medium
+          fr: Moyen
+        value: medium
+      - label:
+          en: Large
+          fr: Grand
+        value: large
+    description:
+      en: Sets the roundness of the child feature cards.
+      fr: Définit l'arrondi des cartes de fonctionnalités enfants
+  margin_top:
+    label:
+      en: Margin Top
+      fr: Marge Supérieure
+    type: string
+    default: none
+    enum:
+      - label:
+          en: None
+          fr: Aucune
+        value: none
+      - label:
+          en: Small
+          fr: Petite
+        value: small
+      - label:
+          en: Medium
+          fr: Moyenne
+        value: medium
+      - label:
+          en: Large
+          fr: Grande
+        value: large
+    description:
+      en: Sets the top margin for the feature wrapper.
+      fr: Définit la marge supérieure pour le wrapper de fonctionnalité.
+  space_between_items:
+    label:
+      en: Space Between Items
+      fr: Espace entre les éléments
+    type: string
+    default: medium
+    enum:
+      - label:
+          en: Small
+          fr: Petit
+        value: small
+      - label:
+          en: Medium
+          fr: Moyen
+        value: medium
+      - label:
+          en: Large
+          fr: Grand
+        value: large
+    description:
+      en: Sets the space between items in the feature wrapper.
+      fr: Définit l'espace entre les éléments dans le wrapper de fonctionnalité.

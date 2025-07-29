@@ -1,0 +1,12 @@
+title:
+  en: Header
+  fr: En-tête
+label:
+  en: Header
+  fr: En-tête
+description:
+  en: A header component that includes a logo and navigation menus and links to external resources.
+  fr: Un composant d'en-tête qui comprend un logo et des menus de navigation ainsi que des liens vers des ressources externes.
+
+category: header
+export: true

@@ -1,0 +1,60 @@
+title:
+  en: Feature Grid Item
+  fr: Élément de Grille de Fonctionnalités
+label:
+  en: Feature Grid Item
+  fr: Élément de Grille de Fonctionnalités
+description:
+  en: An item in the Feature Grid component, showcasing a feature with different layouts and styles.
+  fr: Un élément dans le composant Grille de Fonctionnalités, présentant une fonctionnalité avec différentes mises en page et styles.
+
+category: feature
+export: true
+
+properties:
+  mode:
+    label:
+      en: Display Mode
+      fr: Mode d'Affichage
+    type: string
+    default: card
+    enum:
+      - label:
+          en: Large Feature
+          fr: Fonctionnalité Grande
+        value: large_feature
+      - label:
+          en: Stat Box
+          fr: Boîte Statistique
+        value: stat_box
+      - label:
+          en: Inline Quote Box
+          fr: Boîte de Citation en Ligne
+        value: inline_quote_box
+      - label:
+          en: Medium Feature with List
+          fr: Fonctionnalité Moyenne avec Liste
+        value: medium_feature_with_list
+      - label:
+          en: Mini Code Block
+          fr: Bloc de Code Mini
+        value: mini_code_block
+      - label:
+          en: Simple Visual
+          fr: Visuel Simple
+        value: simple_visual
+      - label:
+          en: Tall Feature
+          fr: Fonctionnalité Haute
+        value: tall_feature
+      - label:
+          en: Git Workflow
+          fr: Flux de Travail Git
+        value: git_workflow
+      - label:
+          en: Wide Feature
+          fr: Fonctionnalité Large
+        value: wide_feature
+    description:
+      en: Select the display mode for the feature grid item.
+      fr: Sélectionnez le mode d'affichage pour l'élément de la grille de fonctionnalités.

@@ -1,0 +1,12 @@
+title:
+  en: Footer
+  fr: Pied de Page
+label:
+  en: Footer
+  fr: Pied de Page
+description:
+  en: A footer component that includes links to external resources and additional information about the site or organization.
+  fr: Un composant de pied de page qui comprend des liens vers des ressources externes et des informations supplémentaires sur le site ou l'organisation.
+
+category: footer
+export: true
