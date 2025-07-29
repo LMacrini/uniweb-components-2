@@ -1,0 +1,12 @@
+title:
+  en: Right Panel
+  fr: Panneau de droite
+label:
+  en: right panel
+  fr: panneau de droite
+description:
+  en: you know
+  fr: tu sais
+
+category: panel
+export: true
