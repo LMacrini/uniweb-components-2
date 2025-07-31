@@ -3640,9 +3640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"company-series-1@workspace:src/C1":
+"company-series-1@workspace:src/L1":
   version: 0.0.0-use.local
-  resolution: "company-series-1@workspace:src/C1"
+  resolution: "company-series-1@workspace:src/L1"
   dependencies:
     "@headlessui/react": "npm:^1.7.13"
     "@radix-ui/react-navigation-menu": "npm:^1.2.13"
