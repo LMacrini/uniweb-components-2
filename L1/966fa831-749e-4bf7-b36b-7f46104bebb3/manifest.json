@@ -1,0 +1,61 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2025-07-31T15:49:58.897Z",
+  "files": [
+    {
+      "name": "main.24704169a2dab26e829d.js",
+      "size": 1029320,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "remoteEntry.js",
+      "size": 6586,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.5c69daed4f58c15da0a2.js",
+      "size": 6607,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.1f29f494ae3072af6850.js",
+      "size": 132719,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.4540c49dadabfa505c39.js",
+      "size": 182335,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.73781021c67e07bf6d3f.js",
+      "size": 923736,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "schema.json",
+      "size": 27976,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.1f29f494ae3072af6850.js.LICENSE.txt",
+      "size": 483,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.5c69daed4f58c15da0a2.js.LICENSE.txt",
+      "size": 237,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.24704169a2dab26e829d.js.LICENSE.txt",
+      "size": 249,
+      "hash": "bfa5b6c2db156fcbd94e"
+    },
+    {
+      "name": "main.73781021c67e07bf6d3f.js.LICENSE.txt",
+      "size": 249,
+      "hash": "bfa5b6c2db156fcbd94e"
+    }
+  ]
+}
