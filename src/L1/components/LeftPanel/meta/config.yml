@@ -1,0 +1,12 @@
+title:
+    en: Left Panel
+    fr: Panneau de gauche
+label:
+    en: left panel
+    fr: panneau de gauche
+description:
+    en: you know
+    fr: tu sais
+
+category: panel
+export: true
